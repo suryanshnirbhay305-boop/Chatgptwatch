@@ -1,0 +1,2 @@
+Build Wear OS APK, on workflow dispatch and push to main, job on ubuntu-latest, steps: checkout, setup Java 17, setup Android SDK, setup Gradle 8 point 10 point 
+Build with gradle :app:assembleDebug no-daemon, then upload artifact from app/build/outputs/apk/debug/app-debug
